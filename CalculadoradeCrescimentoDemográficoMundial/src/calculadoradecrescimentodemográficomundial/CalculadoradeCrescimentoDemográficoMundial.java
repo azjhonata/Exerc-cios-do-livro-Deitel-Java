@@ -48,7 +48,7 @@ public class CalculadoradeCrescimentoDemográficoMundial {
             for (BigInteger a = BigInteger.valueOf(1); a.compareTo(ano) < 0; a = a.add(BigInteger.ONE)) { // Realiza um laço de repetição que inicializa o objeto integer em 1 e compara com objeto anos e faz o incremento até chegar a quantidade de anos informada
                 if (a.compareTo(n5) == 0) { // Verifica se a posição atual é zero se for zero significa que é o primeiro ano entao ao invez de anos escreve ano
                     b2 = b2.add(b2.valueOf(txa)); // Atualiza o valor de b2 com a soma da população anual
-                    System.out.println("População em " + a + " ano: \n" + b2 + "pessoas"); // Imprime ao usuario o ano e a respectiva previsão populacional para esse ano
+                    System.out.println("População em " + a + " ano: \n" + b2 + " pessoas"); // Imprime ao usuario o ano e a respectiva previsão populacional para esse ano
                 } // Fim if 
                 else { // Se for diferente de zero entao imprime anos normalmente
                     b2 = b2.add(b2.valueOf(txa)); // Atualiza o valor de b2 com a soma da população anual
